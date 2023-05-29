@@ -2,13 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">--> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  
   <title>Super Duper Awesome Coding Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <cript src="https://kit.fontawesome.com/a076d05399.js"></cript>
 </head>
 <body>
+    <!--Button to start quiz-->
+    <div class="start_btn"><button>Start</button></div>
+
+    <!--Info Box-->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Rules</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will have 15 seconds per question to answer</div>
+            <div class="info">2. Once you select your answer you cannot reselect</div>
+            <div class="info">3. You will get points on the basis of correct answers</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+
+    <!--Add countdown timer for when quiz begins, should stop when it reaches zero-->
+    <!--be able to save their initials/score to a high scores vie using local storage-->
 
     <div class="quiz-container" id="quiz">
         <div class="quiz-header">

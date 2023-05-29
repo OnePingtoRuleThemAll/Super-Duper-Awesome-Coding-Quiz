@@ -1,3 +1,5 @@
+
+
 const quizData = [
     {
         question: "A JavaScript function is a block of code designed to:",
